@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "0ddb5717-0ccc-4430-aebe-faa6c9d80461",
+		"name": "MM-Healthcare",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Healthcare Info",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "access_token",
+							"value": "b002c7e1a528b7cb460933fc2875e916",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://padcmyanmar.com/padc-5/mm-healthcare/GetHealthcareInfo.php",
+					"protocol": "http",
+					"host": [
+						"padcmyanmar",
+						"com"
+					],
+					"path": [
+						"padc-5",
+						"mm-healthcare",
+						"GetHealthcareInfo.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Healthcare Services",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "access_token",
+							"value": "b002c7e1a528b7cb460933fc2875e916",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://padcmyanmar.com/padc-5/mm-healthcare/GetHealthcareServices.php",
+					"protocol": "http",
+					"host": [
+						"padcmyanmar",
+						"com"
+					],
+					"path": [
+						"padc-5",
+						"mm-healthcare",
+						"GetHealthcareServices.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
